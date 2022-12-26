@@ -8,6 +8,12 @@
     android:orientation="vertical"
     >
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="90dp"
@@ -15,10 +21,84 @@
         android:gravity="center"
         android:textSize="40sp"
         android:layout_margin="30dp"
-        android:background="@drawable/custom_style"
+        android:background="@drawable/bottom_curved"
         android:textColor="#E61F1F"
 
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:text="Rich Food"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:layout_margin="30dp"
+        android:background="@drawable/three_color"
+        android:textColor="#0ECD41"
 
         />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:text="RichFood"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:layout_margin="30dp"
+        android:background="@drawable/bottom_shade"
+        android:textColor="#E61F1F"
+
+        />
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:text="Rich Food"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:layout_margin="30dp"
+        android:background="@drawable/circle_colored"
+        android:textColor="#0ECD41"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:text="Rich Food"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:layout_margin="30dp"
+        android:background="@drawable/orange_button"
+        android:textColor="#0ECD41"
+
+        />
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:text="Rich Food"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:layout_margin="30dp"
+        android:background="@drawable/red_button"
+        android:textColor="#0ECD41"
+
+        />
+
+
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:text="Rich Food"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:layout_margin="30dp"
+        android:background="@drawable/bottom_shade"
+        android:textColor="#0ECD41"
+
+        />
+
+
+    </ScrollView>
+
+
 
 </LinearLayout>
